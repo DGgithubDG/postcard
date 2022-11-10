@@ -1,58 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Chilanka&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>The Postcard</title>
-</head>
-
-<body>
-    <div class="wrap">
-    <div class="cont">
-        <div class="en">
-            <div class="left">
-                <h1>My Postcard</h1>
-            </div>
-            <div class="right"><img src="./assets/4geeks_logo.png" alt="Logo 4geeks" width="100" height="100">
-            </div>
-        </div>
-
-        <div class="body">
-            <div class="left">
-                <p>
-                    Look how awesome! This is a postcard that I created using HTML5 and CSS3 durin my 4Geeks Academy Course!
-                </p>
-                <p>
-                    This is cool, can't wait to start doing more stuff!
-                </p>
-            </div>
-            <div class="right">
-                <div class="left">
-                    <form action="/action_page.php">
-                        <br><br>
-                        <input type="text" id="someName" name="someName" placeholder="Some Name"><br><br>
-                        <input type="text" id="someEmail" name="someEmail" placeholder="Some Email"><br><br>
-                        <input type="text" id="someComment" name="someComment" placeholder="Some Comment"><br>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-
-        <div class="pie">
-            <input type="submit" value="Send My Postcard" height="100px">
-        </div>
-    </div>
-</div>
-</body>
-
+	<body>
+		<div class="postcard">
+			<div class="postcard-header">
+				<h1>M postcard</h1>
+				<img
+					src="https://raw.githubusercontent.com/breatheco-de/exercise-postcard/e63a7916530cc850bd92aa1c2e19191837fb5c80/.learn/assets/4geeks.png"
+				/>
+			</div>
+			<div class="postcard-body">
+				<div class="body-left">
+					<p style="font-family: courier">how how awesome this is a postcard i created using html5 and css during my 4geeks</p>
+					<p style="font-family: courier">this is so cool cant wait to do more</p>
+				</div>
+				<div class="body-right">
+					<input type="text" placeholder="some name" />
+					<input type="text" placeholder="some email" />
+					<input type="text" placeholder="some comment" />
+				</div>
+			</div>
+			<div class="postcard-footer">
+				<button>Send My Postcard</button>
+			</div>
+		</div>
+	</body>
 </html>
+
 
